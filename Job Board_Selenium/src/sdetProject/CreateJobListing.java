@@ -14,7 +14,7 @@ public class CreateJobListing extends BaseTest1{
 	
 	@DataProvider(name = "JobInfoData")
 	  public static Object[][] jobInfoData() {
-	      return new Object[][] { {"weyexo5999@tmail7.com","Oracle DBA Req","Texas","Freelance",
+	      return new Object[][] { {"wavasi8360@tmail7.com","COBOL Developer","Texas","Freelance",
 	    	  "Description Dummy Text","Company Test","company@ymail.com"} };
 	  }
 	
