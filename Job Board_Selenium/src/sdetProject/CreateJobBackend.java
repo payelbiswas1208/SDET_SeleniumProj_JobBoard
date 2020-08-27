@@ -13,7 +13,7 @@ public class CreateJobBackend extends BaseTest2 {
 
 	@DataProvider(name = "JobInfo")
 	public static Object[][] addJobInfo() {
-		return new Object[][] { { "Jenkins Admin", "Toronto", "Company Test" } };
+		return new Object[][] { { "SAP ABAP Developer", "Toronto", "Company Test" } };
 	}
 
 	@Test(dataProvider = "JobInfo")
