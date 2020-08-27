@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteJobBoard">
+              <span class="suite-name border-passed">SuiteJobBoard</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteJobBoard">
+                    <span>C:\SDET\WP\Job Board\src\sdetProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteJobBoard">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteJobBoard">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteJobBoard">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteJobBoard">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteJobBoard">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteJobBoard">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteJobBoard" class="hide-methods passed suite-SuiteJobBoard"> (hide)</a> <!-- hide-methods passed suite-SuiteJobBoard -->
+                      <a href="#" panel-name="suite-SuiteJobBoard" class="show-methods passed suite-SuiteJobBoard"> (show)</a> <!-- show-methods passed suite-SuiteJobBoard -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteJobBoard">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteJobBoard" title="sdetProject.CreateJobBackend" hash-for-method="addJobAdmin(Jenkins Admin, Toronto, Company Test)">addJobAdmin(Jenkins Admin, Toronto, Company Test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteJobBoard" title="sdetProject.FindApplyJob" hash-for-method="applyJob(Python, Python Faculty)">applyJob(Python, Python Faculty)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteJobBoard" title="sdetProject.CreateJobListing" hash-for-method="createJob(weyexo5999@tmail7.com, Oracle DBA Req, Texas, Freelance, Description Dummy Text, Company Test, compa...)">createJob(weyexo5999@tmail7.com, Oracle DBA Req, Texas, Freelance, Description Dummy Text, Company Test, compa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteJobBoard" title="sdetProject.JobPage" hash-for-method="jobPage">jobPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteJobBoard" title="sdetProject.WebsiteBackend" hash-for-method="loginAdmin">loginAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteJobBoard" title="sdetProject.ImageUrl" hash-for-method="printImageUrl">printImageUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteJobBoard" title="sdetProject.VerifyPageHeading" hash-for-method="verifyHeading">verifyHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteJobBoard" title="sdetProject.VerifyHeader" hash-for-method="verifyHeading_2">verifyHeading_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteJobBoard" title="sdetProject.VerifyPageTitle" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteJobBoard -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteJobBoard" class="panel SuiteJobBoard">
+          <div class="suite-SuiteJobBoard-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sdetProject.CreateJobListing</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createJob(weyexo5999@tmail7.com, Oracle DBA Req, Texas, Freelance, Description Dummy Text, Company Test, compa...)">
+                  </a> <!-- createJob(weyexo5999@tmail7.com, Oracle DBA Req, Texas, Freelance, Description Dummy Text, Company Test, compa...) -->
+                  <span class="method-name">createJob</span>
+                  <span class="parameters">(weyexo5999@tmail7.com, Oracle DBA Req, Texas, Freelance, Description Dummy Text, Company Test, company@ymail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteJobBoard-class-passed -->
+          <div class="suite-SuiteJobBoard-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sdetProject.VerifyHeader</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeading_2">
+                  </a> <!-- verifyHeading_2 -->
+                  <span class="method-name">verifyHeading_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteJobBoard-class-passed -->
+          <div class="suite-SuiteJobBoard-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sdetProject.VerifyPageHeading</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeading">
+                  </a> <!-- verifyHeading -->
+                  <span class="method-name">verifyHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteJobBoard-class-passed -->
+          <div class="suite-SuiteJobBoard-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sdetProject.ImageUrl</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printImageUrl">
+                  </a> <!-- printImageUrl -->
+                  <span class="method-name">printImageUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteJobBoard-class-passed -->
+          <div class="suite-SuiteJobBoard-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sdetProject.VerifyPageTitle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteJobBoard-class-passed -->
+          <div class="suite-SuiteJobBoard-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sdetProject.WebsiteBackend</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAdmin">
+                  </a> <!-- loginAdmin -->
+                  <span class="method-name">loginAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteJobBoard-class-passed -->
+          <div class="suite-SuiteJobBoard-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sdetProject.FindApplyJob</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyJob(Python, Python Faculty)">
+                  </a> <!-- applyJob(Python, Python Faculty) -->
+                  <span class="method-name">applyJob</span>
+                  <span class="parameters">(Python, Python Faculty)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteJobBoard-class-passed -->
+          <div class="suite-SuiteJobBoard-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sdetProject.CreateJobBackend</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addJobAdmin(Jenkins Admin, Toronto, Company Test)">
+                  </a> <!-- addJobAdmin(Jenkins Admin, Toronto, Company Test) -->
+                  <span class="method-name">addJobAdmin</span>
+                  <span class="parameters">(Jenkins Admin, Toronto, Company Test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteJobBoard-class-passed -->
+          <div class="suite-SuiteJobBoard-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sdetProject.JobPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobPage">
+                  </a> <!-- jobPage -->
+                  <span class="method-name">jobPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteJobBoard-class-passed -->
+        </div> <!-- panel SuiteJobBoard -->
+        <div panel-name="test-xml-SuiteJobBoard" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\SDET\WP\Job Board\src\sdetProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SuiteJobBoard&quot; parallel=&quot;classes&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;JobBoardTest&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sdetProject.VerifyPageTitle&quot;/&gt;
+      &lt;class name=&quot;sdetProject.VerifyPageHeading&quot;/&gt;
+      &lt;class name=&quot;sdetProject.ImageUrl&quot;/&gt;
+      &lt;class name=&quot;sdetProject.JobPage&quot;/&gt;
+      &lt;class name=&quot;sdetProject.VerifyHeader&quot;/&gt;
+      &lt;class name=&quot;sdetProject.FindApplyJob&quot;/&gt;
+      &lt;class name=&quot;sdetProject.CreateJobListing&quot;/&gt;
+      &lt;class name=&quot;sdetProject.WebsiteBackend&quot;/&gt;
+      &lt;class name=&quot;sdetProject.CreateJobBackend&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- JobBoardTest --&gt;
+&lt;/suite&gt; &lt;!-- SuiteJobBoard --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteJobBoard" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteJobBoard</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">JobBoardTest (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteJobBoard" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteJobBoard</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteJobBoard" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteJobBoard</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteJobBoard');
+function tableData_SuiteJobBoard() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginAdmin')
+data.setCell(0, 2, 'sdetProject.WebsiteBackend')
+data.setCell(0, 3, 34306);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addJobAdmin')
+data.setCell(1, 2, 'sdetProject.CreateJobBackend')
+data.setCell(1, 3, 29459);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createJob')
+data.setCell(2, 2, 'sdetProject.CreateJobListing')
+data.setCell(2, 3, 25247);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'applyJob')
+data.setCell(3, 2, 'sdetProject.FindApplyJob')
+data.setCell(3, 3, 7787);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'jobPage')
+data.setCell(4, 2, 'sdetProject.JobPage')
+data.setCell(4, 3, 2801);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'printImageUrl')
+data.setCell(5, 2, 'sdetProject.ImageUrl')
+data.setCell(5, 3, 537);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyHeading')
+data.setCell(6, 2, 'sdetProject.VerifyPageHeading')
+data.setCell(6, 3, 448);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyTitle')
+data.setCell(7, 2, 'sdetProject.VerifyPageTitle')
+data.setCell(7, 3, 362);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyHeading_2')
+data.setCell(8, 2, 'sdetProject.VerifyHeader')
+data.setCell(8, 3, 140);
+window.suiteTableData['SuiteJobBoard']= { tableData: data, tableDiv: 'times-div-SuiteJobBoard'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SuiteJobBoard">
+              </div> <!-- times-div-SuiteJobBoard -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteJobBoard" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteJobBoard</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteJobBoard" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteJobBoard" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.ImageUrl</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.VerifyPageTitle</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.VerifyPageHeading</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">4 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.JobPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.VerifyHeader</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.JobPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jobPage</span>
+                <span class="method-start">14245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">17052 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.ImageUrl</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">printImageUrl</span>
+                <span class="method-start">17086 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.VerifyPageHeading</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyHeading</span>
+                <span class="method-start">17112 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.VerifyHeader</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyHeading_2</span>
+                <span class="method-start">17237 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.VerifyPageTitle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">17250 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.VerifyHeader</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">17380 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.VerifyPageHeading</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">17563 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.VerifyPageTitle</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">17615 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.ImageUrl</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">17630 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.FindApplyJob</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">19694 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.CreateJobListing</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">21243 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.WebsiteBackend</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginAdmin</span>
+                <span class="method-start">23924 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.CreateJobBackend</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">27078 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.FindApplyJob</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">applyJob(Python, Python Faculty)</span>
+                <span class="method-start">28095 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.CreateJobListing</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createJob(weyexo5999@tmail7.com, Oracle DBA Req, Texas, Freelance, Description Dummy Text, Company Test, compa...)</span>
+                <span class="method-start">29376 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.FindApplyJob</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">35893 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.CreateJobBackend</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginMethod</span>
+                <span class="method-start">37132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addJobAdmin(Jenkins Admin, Toronto, Company Test)</span>
+                <span class="method-start">50206 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.CreateJobListing</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">54626 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sdetProject.CreateJobBackend</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutMethod</span>
+                <span class="method-start">79669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">81666 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

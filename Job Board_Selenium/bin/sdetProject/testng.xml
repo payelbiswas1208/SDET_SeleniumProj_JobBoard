@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteJobBoard" parallel="classes">
+	<test name="JobBoardTest">
+		<classes>
+			<class name="sdetProject.VerifyPageTitle"/>
+			
+			<class name="sdetProject.VerifyPageHeading"/>
+			
+			<class name="sdetProject.ImageUrl"/>
+			
+			<class name="sdetProject.JobPage"/>
+			
+			<class name="sdetProject.VerifyHeader"/>
+			
+			<class name="sdetProject.FindApplyJob"/>
+			
+			<class name="sdetProject.CreateJobListing"/>
+			
+			<class name="sdetProject.WebsiteBackend"/>
+			
+			<class name="sdetProject.CreateJobBackend"/>
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

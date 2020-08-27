@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteJobBoard" duration-ms="81711" started-at="2020-08-27T19:33:10 IST" finished-at="2020-08-27T19:34:32 IST">
+    <groups>
+    </groups>
+    <test name="JobBoardTest" duration-ms="81711" started-at="2020-08-27T19:33:10 IST" finished-at="2020-08-27T19:34:32 IST">
+      <class name="sdetProject.VerifyPageHeading">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.VerifyPageHeading@d9afd142]" name="launchBrowser" is-config="true" duration-ms="17108" started-at="2020-08-27T19:33:10 IST" finished-at="2020-08-27T19:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyHeading()[pri:0, instance:sdetProject.VerifyPageHeading@d9afd142]" name="verifyHeading" duration-ms="448" started-at="2020-08-27T19:33:27 IST" finished-at="2020-08-27T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeading -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.VerifyPageHeading@d9afd142]" name="closeBrowser" is-config="true" duration-ms="6361" started-at="2020-08-27T19:33:28 IST" finished-at="2020-08-27T19:33:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.VerifyPageHeading -->
+      <class name="sdetProject.VerifyPageTitle">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.VerifyPageTitle@a3ef1aac]" name="launchBrowser" is-config="true" duration-ms="17246" started-at="2020-08-27T19:33:10 IST" finished-at="2020-08-27T19:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:sdetProject.VerifyPageTitle@a3ef1aac]" name="verifyTitle" duration-ms="362" started-at="2020-08-27T19:33:27 IST" finished-at="2020-08-27T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.VerifyPageTitle@a3ef1aac]" name="closeBrowser" is-config="true" duration-ms="2079" started-at="2020-08-27T19:33:28 IST" finished-at="2020-08-27T19:33:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.VerifyPageTitle -->
+      <class name="sdetProject.FindApplyJob">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.FindApplyJob@9e07f21d]" name="launchBrowser" is-config="true" duration-ms="8396" started-at="2020-08-27T19:33:30 IST" finished-at="2020-08-27T19:33:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="applyJob(java.lang.String, java.lang.String)[pri:0, instance:sdetProject.FindApplyJob@9e07f21d]" name="applyJob" duration-ms="7787" started-at="2020-08-27T19:33:38 IST" data-provider="JobSearch" finished-at="2020-08-27T19:33:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Python]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Python Faculty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyJob -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.FindApplyJob@9e07f21d]" name="closeBrowser" is-config="true" duration-ms="21276" started-at="2020-08-27T19:33:46 IST" finished-at="2020-08-27T19:34:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.FindApplyJob -->
+      <class name="sdetProject.JobPage">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.JobPage@fa9e666e]" name="launchBrowser" is-config="true" duration-ms="14202" started-at="2020-08-27T19:33:10 IST" finished-at="2020-08-27T19:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="jobPage()[pri:0, instance:sdetProject.JobPage@fa9e666e]" name="jobPage" duration-ms="2801" started-at="2020-08-27T19:33:24 IST" finished-at="2020-08-27T19:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.JobPage@fa9e666e]" name="closeBrowser" is-config="true" duration-ms="10393" started-at="2020-08-27T19:33:27 IST" finished-at="2020-08-27T19:33:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.JobPage -->
+      <class name="sdetProject.CreateJobListing">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.CreateJobListing@72997d13]" name="launchBrowser" is-config="true" duration-ms="8129" started-at="2020-08-27T19:33:31 IST" finished-at="2020-08-27T19:33:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="createJob(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sdetProject.CreateJobListing@72997d13]" name="createJob" duration-ms="25247" started-at="2020-08-27T19:33:39 IST" data-provider="JobInfoData" finished-at="2020-08-27T19:34:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[weyexo5999@tmail7.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Oracle DBA Req]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Freelance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Description Dummy Text]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Company Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[company@ymail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createJob -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.CreateJobListing@72997d13]" name="closeBrowser" is-config="true" duration-ms="2678" started-at="2020-08-27T19:34:05 IST" finished-at="2020-08-27T19:34:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.CreateJobListing -->
+      <class name="sdetProject.WebsiteBackend">
+        <test-method status="PASS" signature="loginAdmin()[pri:0, instance:sdetProject.WebsiteBackend@c2d7f0ae]" name="loginAdmin" duration-ms="34306" started-at="2020-08-27T19:33:34 IST" finished-at="2020-08-27T19:34:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+      </class> <!-- sdetProject.WebsiteBackend -->
+      <class name="sdetProject.VerifyHeader">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.VerifyHeader@b21551c7]" name="launchBrowser" is-config="true" duration-ms="17214" started-at="2020-08-27T19:33:10 IST" finished-at="2020-08-27T19:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyHeading_2()[pri:0, instance:sdetProject.VerifyHeader@b21551c7]" name="verifyHeading_2" duration-ms="140" started-at="2020-08-27T19:33:27 IST" finished-at="2020-08-27T19:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeading_2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.VerifyHeader@b21551c7]" name="closeBrowser" is-config="true" duration-ms="9698" started-at="2020-08-27T19:33:27 IST" finished-at="2020-08-27T19:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.VerifyHeader -->
+      <class name="sdetProject.CreateJobBackend">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.CreateJobBackend@4b2e75c4]" name="launchBrowser" is-config="true" duration-ms="10053" started-at="2020-08-27T19:33:37 IST" finished-at="2020-08-27T19:33:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginMethod()[pri:0, instance:sdetProject.CreateJobBackend@4b2e75c4]" name="loginMethod" is-config="true" duration-ms="13073" started-at="2020-08-27T19:33:47 IST" finished-at="2020-08-27T19:34:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method status="PASS" signature="addJobAdmin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sdetProject.CreateJobBackend@4b2e75c4]" name="addJobAdmin" duration-ms="29459" started-at="2020-08-27T19:34:00 IST" data-provider="JobInfo" finished-at="2020-08-27T19:34:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jenkins Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Company Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addJobAdmin -->
+        <test-method status="PASS" signature="logoutMethod()[pri:0, instance:sdetProject.CreateJobBackend@4b2e75c4]" name="logoutMethod" is-config="true" duration-ms="1997" started-at="2020-08-27T19:34:30 IST" finished-at="2020-08-27T19:34:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.CreateJobBackend@4b2e75c4]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-08-27T19:34:32 IST" finished-at="2020-08-27T19:34:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.CreateJobBackend -->
+      <class name="sdetProject.ImageUrl">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.ImageUrl@d2b40083]" name="launchBrowser" is-config="true" duration-ms="17086" started-at="2020-08-27T19:33:10 IST" finished-at="2020-08-27T19:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="printImageUrl()[pri:0, instance:sdetProject.ImageUrl@d2b40083]" name="printImageUrl" duration-ms="537" started-at="2020-08-27T19:33:27 IST" finished-at="2020-08-27T19:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printImageUrl -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.ImageUrl@d2b40083]" name="closeBrowser" is-config="true" duration-ms="3612" started-at="2020-08-27T19:33:28 IST" finished-at="2020-08-27T19:33:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.ImageUrl -->
+    </test> <!-- JobBoardTest -->
+  </suite> <!-- SuiteJobBoard -->
+</testng-results>
